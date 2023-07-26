@@ -1,0 +1,14 @@
+<h1>{{ title }}</h1>
+<form #loginForm="ngForm" (ngSubmit)=userLogin(loginForm.value)>
+  <input type="text" placeholder="Enter Your Name" name="name" ngModel>
+  <br><br>
+  <input type="password" placeholder="Enter Password" name="password" ngModel>
+  <br><br>
+  <button>Login</button>
+</form>
+<div></div>
+<!-- name field is important -->
+<br>
+<!-- <button (click)="userLogin(loginForm.value)">Out Side Login</button> -->
+
+<!-- loginForm.controls -->

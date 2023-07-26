@@ -1,0 +1,16 @@
+
+<div class="container">
+  <h1>Data Binding</h1>
+  <h2>String Interpolation</h2>
+  <span>My name is {{ firstName }}</span>
+
+  <h2>Property Binding</h2>
+  <img [src]="imagepath" alt="IEMLabs">
+  <p innerText=""></p>
+
+  <h2>Event Binding</h2>
+  <input type="text" (input)="passValueToComponent($event)">
+  <h2>Two Way Data Binding</h2>
+  <input type="text" [(ngModel)]="defaultVal">
+  <span>{{ defaultVal }}</span>
+</div>

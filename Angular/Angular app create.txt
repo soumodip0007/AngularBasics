@@ -1,0 +1,24 @@
+npm install -g @angular/cli => Installing the angular cli globally in our PC
+ng new app-name => Creating an Angular app
+
+Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+details and how to change this setting, see https://angular.io/analytics. (y/N)
+=> n
+
+? Would you like to add Angular routing? (y/N)
+=> n
+
+css => Hit Enter
+scss
+Sass
+Less
+
+ng serve => To run angular app 
+
+
+=> Go to package.json in angular app's folder then copy ng serve 
+and paste it in terminal and hit enter or you can enter npm run start.
+then copy http://localhost:4200 and run the url
+
+

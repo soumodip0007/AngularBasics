@@ -1,0 +1,11 @@
+form {
+  display: grid;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}
+button {
+  background-color:rgb(7, 7, 75);
+  color: aliceblue;
+}
